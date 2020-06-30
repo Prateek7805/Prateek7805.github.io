@@ -118,7 +118,7 @@ hr{
 }
 
 /***********************************mobile****************************************/
-@media (max-width: 767px){
+@media (min-width: 450px) and (max-width: 767px){
 
 .navbar-brand{
 	margin-left: 15px !important;
@@ -133,5 +133,25 @@ hr{
 }
 .menu-item p{
 	font-size: 14px;
+}
+
+}
+
+/***********************************mobile****************************************/
+@media (max-width: 449px){
+	.navbar-brand{
+	margin-left: 15px !important;
+}
+
+.main-content{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+	.menu-item{
+	height: 1350px;
+}
+.menu-item p{
+	font-size: 12px;
 }
 }
