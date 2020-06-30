@@ -129,7 +129,7 @@ hr{
 	margin-right: auto;
 }
 .menu-item{
-	height: 1150px;
+	height: 1200px;
 }
 .menu-item p{
 	font-size: 14px;
@@ -137,7 +137,7 @@ hr{
 
 }
 
-/***********************************mobile****************************************/
+/***********************************Small mobile****************************************/
 @media (max-width: 449px){
 	.navbar-brand{
 	margin-left: 15px !important;
