@@ -122,9 +122,10 @@ p{
   padding: 60px;
 }
 .container{
-  padding: 0 60px 0 60px;
+  padding: 0 40px 0 40px;
 }
+
 #header-title, #header-nav{
-  font-size: 3vw;
+  font-size: 4vw;
 }
 }
