@@ -9,13 +9,10 @@
   <body>
     <div id="header">
       <div class="container">
-
-          <a  id="header-title" href="index.html">My Blog</a>
-
-
+          <button  id="header-title" href="index.html">My Blog</button>
         <div id="header-nav">
           <ul>
-            <li><a href="about.html">About </a></li>
+            <li><button id="aboutBtn" class="about-button">about</button></li>
             <li><a href="mailto:prateekelectronmechanics@gmail.com">Contact</a></li>
           </ul>
         </div>
@@ -24,13 +21,12 @@
     </div>
 
     <div id="content">
-      <div class="post-container">
+      <div id="mainContainer" class="post-container">
         <div class="post">
           <div class="post-author">
-            <img src="images/head_bob.gif" alt="me.gif">
+            <a href="index.html"><img src="images/me.jpg" alt="me.jpg"></a>
             <span>Me</span>
           </div>
-          <p class="post-date">Today</p>
           <h3 class="post-title">Becomming a Web Developer</h3>
           <div class="post-content">
             <p>I'm from an electronics domain and found web development as a barrier for my
@@ -57,6 +53,7 @@
 
       </div>
     </div>
+
     <div id="footer">
       <div class="container">
 
@@ -74,5 +71,8 @@
 
       </div>
     </div>
+    <script src="js/script.js">
+
+    </script>
   </body>
 </html>

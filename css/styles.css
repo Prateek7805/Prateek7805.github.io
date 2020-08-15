@@ -1,11 +1,15 @@
 
 *{
   box-sizing: border-box;
+  outline:none;
 }
 body{
   color: #555;
   margin: 0;
   font-family: calibri, sans-serif;
+}
+a{
+  text-decoration: none;
 }
 /* header */
 #header{
@@ -15,9 +19,18 @@ body{
 }
 
 #header-title{
-  float: left;
-  font-size:20px;
+  font-size: 20px;
+  color: #FFF;
+  text-transform: uppercase;
   font-weight: bold;
+  letter-spacing: 0.1em;
+  transition: 0.4s;
+  background: none;
+  border: none;
+}
+#header-title:hover{
+  color: #222;
+
 }
 #header-nav{
   display: block;
@@ -28,16 +41,25 @@ body{
 }
 #header a{
   color: #FFF;
-  text-decoration: none;
-
   text-transform: uppercase;
   letter-spacing: 0.1em;
   transition: 0.4s;
 }
-
 #header a:hover{
   color: #222;
 }
+.about-button{
+  color: #FFF;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: 0.4s;
+  border: none;
+  background: none;
+}
+.about-button:hover{
+  color: #222;
+}
+
 .container{
   padding: 0 150px;
   margin: 0 auto;
@@ -78,15 +100,11 @@ body{
 /* end of footer */
 
 /* content */
-.post{
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 60px 0;
-}
+
 .post-author img, .about-author img{
-  width: 200px;
-  height: 150px;
-  border-radius: 75px;
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
   vertical-align: middle;
 }
 
@@ -114,12 +132,14 @@ p{
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
-  padding 60px 0;
-  text-align: :center;
+  padding: 60px 0;
 }
-@media(max-width: 767px){
+@media(max-width: 910px){
 .post, .about{
   padding: 60px;
+}
+a:active, #header-title:active, .about-button:active{
+  transform:scale(0.96);
 }
 .container{
   padding: 0 40px 0 40px;
@@ -128,4 +148,10 @@ p{
 #header-title, #header-nav{
   font-size: 4vw;
 }
+
+.about-button{
+  font-size: 3.5vw;
+}
+
+
 }

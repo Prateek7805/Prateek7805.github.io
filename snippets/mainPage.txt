@@ -1,0 +1,16 @@
+<div class="post">
+          <div class="post-author">
+            <a href="index.html"><img src="images/me.jpg" alt="me.jpg"></a>
+            <span>Me</span>
+          </div>
+          <h3 class="post-title">Becomming a Web Developer</h3>
+          <div class="post-content">
+            <p>I'm from an electronics domain and found web development as a barrier for my
+            IOT projects as I used either an existing APP or some HTML code, however I didn't have the
+          degree of customization that i wanted, finally I made up my mind to learn <em>HTML, CSS, JS.</em></p>
+          <p> I began with <strong>Coursera</strong> which had an amazing course by <strong><em>John Hopkin's Whiting school of engineering</em></strong>
+          I completed the course and further studied the <em>HTTP and FTP protocol</em>, there was a realtime communication that I found was missing which was
+        then achieved by using <em>WebSockets</em>.</p>
+        <p>I plan to explore more into Web development and Keep Learning.</p>
+          </div>
+        </div>

@@ -1,0 +1,11 @@
+<div class="about">
+          <div class="about-author">
+              <img src="images/me.jpg" alt="me.jpg">
+          </div>
+
+          <h1 class="about-title">About Me</h1>
+          <div class="about-content">
+            <p>Hi there! I'm an Electronics and Communication Engineering Student.</p>
+            <p>If you want to know about me and my projects please visit the links in the navigation bar</p>
+          </div>
+        </div>
