@@ -6,6 +6,6 @@
           <h1 class="about-title">About Me</h1>
           <div class="about-content">
             <p>Hi there! I'm an Electronics and Communication Engineering Student.</p>
-            <p>If you want to know about me and my projects please visit the links in the navigation bar</p>
+            <p>If you want to know about me and my projects please scroll down and visit the links.</p>
           </div>
         </div>
