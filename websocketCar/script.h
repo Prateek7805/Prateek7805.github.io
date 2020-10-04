@@ -1,3 +1,4 @@
+const char js[] PROGMEM = R"=====(
 var Socket;
 document.addEventListener('DOMContentLoaded', init, false);
 function init(){
@@ -54,3 +55,5 @@ doc('range').addEventListener('input', function(){
   doc('rangeVal').innerHTML = this.value;
   _send('v', this.value);
 });
+
+)=====";

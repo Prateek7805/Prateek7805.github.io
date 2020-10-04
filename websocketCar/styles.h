@@ -1,3 +1,4 @@
+const char css[] PROGMEM = R"=====(
 *{
   box-sizing: border-box;
   margin: 0;
@@ -118,3 +119,6 @@ body{
     width: 70%
   }
 }
+
+
+)=====";
