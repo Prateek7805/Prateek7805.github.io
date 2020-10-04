@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html{
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+body{
+  font-family: monospace, Calibri , sans-serif;
+  background-color: #1a1a2e;
+}
+
+.center{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.generalWhite{
+  color: #fff;
+}
+.generalWidth{
+  width: 80%;
+}
+.generalButton{
+  background-color: #fff;
+  padding:20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  transition-duration: 150ms;
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+.generalButton:active{
+  transform:scale(0.97);
+}
+.generalRange{
+  appearance: none;
+  width: 80%;
+  height: 12px;
+  border:none;
+  border-radius: 5px;
+  background-color: #d3d3d3;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+.generalRange:hover{
+  opacity: 1;
+}
+.generalRange::-webkit-slider-thumb{
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 50%;
+  background-color: #c62a88;
+  cursor: pointer;
+}
+.generalRange::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 50%;
+  background: #c62a88;
+  cursor: pointer;
+}
+.container{
+  width: 100%;
+}
+.header{
+  margin-top: 10px;
+ background-color: #03c4a1;
+ border: none;
+ border-radius: 4px;
+}
+.content{
+  width : 80%;
+}
+.buttons{
+  margin-top: 20px;
+}
+
+
+.range{
+  margin-top: 20px;
+  width: 45%;
+}
+#rangeVal{
+  margin-left: 10px;
+}
+
+@media(max-width: 767px) and (min-width: 500px){
+  .range{
+    width: 60%;
+  }
+}
+
+@media(max-width: 499px){
+  .range{
+    width: 80%;
+  }
+  .generalRange{
+    width: 70%
+  }
+}
