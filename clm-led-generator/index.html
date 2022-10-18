@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Alphabet Generator 8x8</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><p>CLM</p></div>
+        <div class="content">
+            <div class="dn" id="ID_KEYBOARD_CONTAINER">
+                <div class="alphabet-controls" id="ID_KEYBOARD_CONTROLS">
+                    
+                </div>
+            </div>
+            
+            <div class="df-c">
+                <div class="led-panel-controller">
+                    <button id="ID_LED_TRASH" class="led-panel-clear led-controller-btn"><img src="trash-2.svg"></button>
+                    <button id="ID_LED_RESTORE" class="led-panel-restore led-controller-btn"><img src="refresh-ccw.svg"></button>
+                    <button id="ID_LED_LEFT_SHIFT" class="led-panel-left led-controller-btn"><img src="arrow-left.svg"/></button>
+                    <button id="ID_LED_RIGHT_SHIFT" class="led-panel-right led-controller-btn"><img src="arrow-left.svg"/></button>
+                    <label id="ID_LED_COLOR_L" class="led-panel-color-label"><input type="color" id="ID_LED_COLOR" class = "led-panel-color" value="#FF0050"/></label>
+                    <button class="led-panel-keyboard led-controller-btn" id="ID_LED_KEYBOARD"><img src="1293306.svg"></button>
+                </div>
+            </div>
+            <div class="led-panel-container">
+                <div class="led-panel" id="ID_LED_PANEL">
+
+                </div>
+            </div>
+            <div class="df-c">
+                <div class="led-panel-controller">
+                    <button  class="led-panel-rotate led-controller-btn" id="ID_ROTATE"><img src="rotate-cw.svg"></button>
+                    <button class="led-panel-type led-controller-btn" id="ID_DWN_TYPE"><p>C++</p></button>
+                    <button class="led-panel-dwn led-controller-btn" id="ID_LED_DWN"><img src="download.svg"/></button>
+                    <div class="led-panel-dwn-all led-controller-btn" id="ID_LED_DWN_ALL"><img src="file-text.svg"></div>
+                </div>
+            </div>
+            <div id="ID_LED_CHASER_CONTAINER" class="led-chaser-container">
+                <div id="ID_LED_CHASER_PANEL" class="led-chaser-panel">
+
+                </div>
+            </div>
+            <div class="df-c">
+                <div class="led-panel-speed-controller">
+                        <input id="ID_LED_CHASE_SPEED" class="slider led-chase-speed" type="range" min="0" max="100" value="90">
+                        <input id="ID_LED_CHASE_TEXT" class="led-input-textbox" type="text" placeholder="Enter Text">
+                        <button id="ID_LED_CHASE_TEXT_SUBMIT" class="led-controller-btn led-submit-btn"><p>Submit</p></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
